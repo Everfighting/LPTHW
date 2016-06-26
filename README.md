@@ -67,3 +67,14 @@ len()能够判断文本的长短
 - ex18.py
 > *args 必须放在（）才能正常工作。
 *args 是让Python把所有的参数都传进来，放到名字叫args的列表中去。
+- ex19.py
+- ex20.py
+- ex21.py
+- ex22.py
+- ex23.py
+- ex24.py
+- ex25.py
+- ex26.py
+- ex27.py
+> 真值表 Not,or,and,not or,not and
+- ex28.py
