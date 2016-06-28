@@ -78,3 +78,30 @@ len()能够判断文本的长短
 - ex27.py
 > 真值表 Not,or,and,not or,not and
 - ex28.py
+- ex29.py
+- ex30.py
+- ex31.py
+- ex32.py
+- ex33.py
+- ex34.py
+- ex35.py
+- ex36.py
+- ex37.py
+- ex38.py
+- ex39.py
+- ex40.py
+- ex41.py
+- ex42.py
+- ex43.py
+- ex44.py
+- ex45.py
+- ex46.py
+- ex47.py
+- ex48.py
+- ex49.py
+- ex50.py
+- ex51.py
+- ex52.py
+
+
+
