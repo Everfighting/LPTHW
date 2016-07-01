@@ -61,24 +61,24 @@ txt.read意思是上txt执行read命令。
 
 - ex16.py
 > 文件相关操作：
-open - 打开文件。f = open('filename', mode)
-相关参数
-w     以写方式打开，
-a     以追加模式打开 (从 EOF 开始, 必要时创建新文件)
-r+     以读写模式打开
-w+     以读写模式打开 (参见 w )
-a+     以读写模式打开 (参见 a )
-rb     以二进制读模式打开
-wb     以二进制写模式打开 (参见 w )
-ab     以二进制追加模式打开 (参见 a )
-rb+    以二进制读写模式打开 (参见 r+ )
-wb+    以二进制读写模式打开 (参见 w+ )
-ab+    以二进制读写模式打开 (参见 a+ )
-close - 关闭文件。
-read - 读取文件。
-readline - 读取文本文件中的一行。
-truncate - 清空文件。
-write(stuff) -将stuff写入文件。
+    open - 打开文件。f = open('filename', mode)
+    相关参数
+    w     以写方式打开，
+    a     以追加模式打开 (从 EOF 开始, 必要时创建新文件)
+    r+     以读写模式打开
+    w+     以读写模式打开 (参见 w )
+    a+     以读写模式打开 (参见 a )
+    rb     以二进制读模式打开
+    wb     以二进制写模式打开 (参见 w )
+    ab     以二进制追加模式打开 (参见 a )
+    rb+    以二进制读写模式打开 (参见 r+ )
+    wb+    以二进制读写模式打开 (参见 w+ )
+    ab+    以二进制读写模式打开 (参见 a+ )
+    close - 关闭文件。
+    read - 读取文件。
+    readline - 读取文本文件中的一行。
+    truncate - 清空文件。
+    write(stuff) -将stuff写入文件。
 
 - ex17.py
 > os.path中有 exists 判断文件是否存在
