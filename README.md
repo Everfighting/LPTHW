@@ -1,9 +1,9 @@
 ﻿# Learn Python the hard way
 - ex0.py
 
-    终端运行时CTRL-D退出
+    - 终端运行时CTRL-D退出
 
-    linux常用命令：
+    - linux常用命令：
 
         mkdir  创建文件夹
         rmdir  删除文件夹
