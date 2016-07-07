@@ -14,9 +14,9 @@
 
 - ex1.py
 
-    编码设置： # -*- encoding:utf-8 -*-
+    - 编码设置： # -*- encoding:utf-8 -*-
 
-    井号英文:octothorpe，pound，hash，mesh等。
+    - 井号英文:octothorpe，pound，hash，mesh等。
 
 - ex2.py
 
