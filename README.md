@@ -1,5 +1,15 @@
 ﻿# Learn Python the hard way
+- ex0.py
 
+    终端运行时CTRL-D退出
+
+    linux常用命令：
+        mkdir  创建文件夹
+        rmdir  删除文件夹
+        cd     切换目录
+        pwd    所在文件位置
+        ls/dir 所在目录所有文件信息
+        touch  创建新文件
 - ex1.py
 > 编码设置： # -*- encoding:utf-8 -*-
 井号英文:octothorpe，pound，hash，mesh等。
