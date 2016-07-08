@@ -108,9 +108,12 @@
 
             如果参数是在用户执行命令时就要输入，那就是argv
             如果是在脚本运行过程中需要用户输入，那就使用raw_input()
-
     - 一个实现某类特定功能的变量、函数、类的集合。类似模块、库。
     - python ex13.py second third 脚本后面跟的是参数。
+    - from .....import.....是导入外部模块的固定格式，也可import.....。
+
+            sys.argv 通过import sys 导入，且导入了sys模块下所有对象
+            argv     通过from sys import argv 导入，且只导入了argv变量
 
 - ex14.py
 
@@ -124,6 +127,8 @@
 - ex16.py
 
     - 文件相关操作：open - 打开文件。f = open('filename', mode)
+    - 使用'W'，文件若存在，首先要清空，然后（重新）创建
+    - 使用'a'模式 ，把所有要写入文件的数据都追加到文件的末尾，如果文件不存在，将自动被创建。
 
             相关参数
             w     以写方式打开，
@@ -137,6 +142,7 @@
             rb+    以二进制读写模式打开 (参见 r+ )
             wb+    以二进制读写模式打开 (参见 w+ )
             ab+    以二进制读写模式打开 (参见 a+ )
+
             close - 关闭文件。
             read - 读取文件。
             readline - 读取文本文件中的一行。
@@ -144,50 +150,89 @@
             write(stuff) -将stuff写入文件。
 
 - ex17.py
-
     - os.path中有 exists 判断文件是否存在
     - len()能够判断文本的长短
 
 - ex18.py
-
     - *args 必须放在（）才能正常工作。
     - *args 把所有的参数都传进来，放到名字叫args的列表中去。
     - **args 把所有的参数都传进来，放到名字叫做args的字典中去。
+    - 函数定义的注意事项：
+
+            1.以def关键字开始函数定义
+            2.函数名字可以是任意名字，但最好是能够反映函数功能的名字，并不与python关键字重复
+            3.紧跟函数名的是一对括号
+            4.括号中可以包含参数，也可以空着，若有多个参数，参数之间以逗号分隔，可以让参数等于某个值即设定了该参数的默认值，在调用时，若没有给出该参数，则使用默认值。
+            5.括号后面是一个冒号
+            6.函数体需要整体缩进相同的距离，python将冒号以下缩进相同的内容视为函数体。
+            7.函数可以使用return返回某个值
 
 - ex19.py
+
+        可以在函数里用变量名 cheese_and_crackers(cheese_count, boxes_of_crackers)
+        可以在函数里做运算 cheese_and_crackers(10+20, 5+6)
+        甚至可以把运算跟变量相结合  cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers+1000)
+    - raw_input() 默认输出的为字符串 需转换int(raw_input())
+    - python函数的参数分类
+
+            1.必备参数
+            2.缺省参数:即默认值。默认值在函数定义时用等号设置
+            3.命名参数:命名参数和函数调用关系紧密，调用方用参数的命名确定传入的参数值。
+            4.不定长参数：需要一个函数能处理比当初声明时更多的参数.加了'*'或'**'的变量名。
+    - 全局变量和局部变量
+
+            定义在函数内部的变量，作用域为函数体内，属于局部变量，只能在函数内部进行访问；
+            定义在函数外部的变量，作用域为整个脚本，属于全局变量，能在脚本的任意地方访问；
 
 - ex20.py
     - seek(offset,where)
 
             where=0从起始位置移动，1从当前位置移动，2从结束位置移动。
             当有换行时，会被换行截断。seek（）无返回值，故值为None。
+    - 文件读取：
+
+            f.read(size)
+            f.readline()
+            f.readlines()
+    - x += y 与 x = x + y 一样
 
 - ex21.py
+    - return返回结果，return None不返回内容。
 
 - ex22.py
 
 - ex23.py
+    - 阅读更多的代码,如github。
 
 - ex24.py
 
 - ex25.py
+    - split str.split([sep[, maxsplit]])
+    - sorted(iterable[, cmp[, key[, reverse]]])
+    - L.pop([index]) -> item -- remove and return item at index (default last).
 
 - ex26.py
     - 执行import时不需要加.PY后缀。
 
 - ex27.py
-    - 真值表 Not,or,and,not or,not and
+    - 真值表 Not,or,and,not or,not and 学会判断。
+    - 数字0，None类型，空字符串，空列表，空字典，空元组也被认为是False。
 
 - ex28.py
 
 - ex29.py
+    - 注意缩进，防止if悬挂。
 
 - ex30.py
     - if语句可以跟多个elif语句，但最后只能有一个else语句
 
 - ex31.py
+    - if...elif/else结构，只需要检查到第一个为True就停止继续执行。
 
 - ex32.py
+    - 列表的计数是从0开始，如果是从右计数是-1开始的。
+    - range用法见ex32_1，冒泡算法的实现！***
+
 
 - ex33.py
 
@@ -200,6 +245,8 @@
 - ex37.py
 
 - ex38.py
+    -列表操作
+
 
 - ex39.py
 
