@@ -88,7 +88,7 @@ d.remove(1)
 print d
 
 # dict(d)           创建一个字典。d 必须是一个序列 (key,value)元组。
-e = dict(['1','one'])
+e = {'1':'one','2':'two'}
 print e
+print e['1']
 
-# eval(str)         用来计算在字符串中的有效Python表达式,并返回一个对象
