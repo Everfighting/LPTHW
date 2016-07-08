@@ -97,13 +97,20 @@
 - ex12.py
     - raw_input()括号中可放入提示信息。
     - pydoc模块主要用来从Python模块中提取信息并生成文档。
-    - pydoc 模块名 查看模块相关信息。
+
+            windows：
+            python -m pydoc <modulename>
+            linux:
+            pydoc <modulename>
 
 - ex13.py
     - argv 和 raw_input有什么不同？
 
             如果参数是在用户执行命令时就要输入，那就是argv
             如果是在脚本运行过程中需要用户输入，那就使用raw_input()
+
+    - 一个实现某类特定功能的变量、函数、类的集合。类似模块、库。
+    - python ex13.py second third 脚本后面跟的是参数。
 
 - ex14.py
 
