@@ -317,9 +317,9 @@
 - ex46.py
     - pip用法
 
-            pip install SomePackage
-            pip install --upgrade SomePackage
-            pip uninstall SomePackage
+            pip install SomePackage #安装包
+            pip install --upgrade SomePackage #升级包
+            pip uninstall SomePackage #卸载包
 
 - ex47.py
 
