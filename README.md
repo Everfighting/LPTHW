@@ -315,6 +315,11 @@
 - ex45.py
 
 - ex46.py
+    - pip用法
+
+            pip install SomePackage
+            pip install --upgrade SomePackage
+            pip uninstall SomePackage
 
 - ex47.py
 
