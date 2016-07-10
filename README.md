@@ -315,12 +315,15 @@
 - ex45.py
 
 - ex46.py
-    - pip用法
+    - pip：用于安装其他软件的软件
 
             pip install SomePackage #安装包
             pip install --upgrade SomePackage #升级包
             pip uninstall SomePackage #卸载包
+    - nose：自动化测试框架
 
+            使用nose运行简单，只要遵循简单规则来组织你的库和代码；
+            设置测试环境简单；nose有非常多内建的插件来帮助你捕捉输出，错误信息等。
 - ex47.py
 
 - ex48.py
