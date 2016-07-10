@@ -320,13 +320,18 @@
             pip install SomePackage #安装包
             pip install --upgrade SomePackage #升级包
             pip uninstall SomePackage #卸载包
+
+- ex47.py
     - nose：自动化测试框架
 
             使用nose运行简单，只要遵循简单规则来组织你的库和代码；
             设置测试环境简单；nose有非常多内建的插件来帮助你捕捉输出，错误信息等。
-- ex47.py
 
 - ex48.py
+    - try...except...
+
+            异常处理，运行代码段放到try中，出错之后需要运行except中的代码段。
+
 
 - ex49.py
 
