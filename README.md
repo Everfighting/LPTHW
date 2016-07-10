@@ -332,8 +332,14 @@
 
             异常处理，运行代码段放到try中，出错之后需要运行except中的代码段。
 
+    - 字符串split用法
+
+            stuff = raw_input('> ') # 提示输入字符串内容
+            words = stuff.split() # 对字符串按照空格进行拆分
+            print words # 打印出拆分后的列表
 
 - ex49.py
+    - peek、match、skip
 
 - ex50.py
 
