@@ -1,4 +1,5 @@
 # -*- coding:utf-8 -*-
+#!/usr/bin/env python
 print "Hello Again"
 print "Hello World!"
 print "I like typing this."
