@@ -1,3 +1,6 @@
+# -*- coding:utf-8 -*-
+#!/usr/bin/env python
+
 # A comment, this is so you can read your program later
 # Anything after the # is ignored by python
 
