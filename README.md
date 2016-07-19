@@ -202,9 +202,12 @@
 - ex22.py
 
 - ex23.py
-    - 阅读更多的代码,如github。
+    - 更多渠道阅读别人的代码,如github。
 
 - ex24.py
+    - 字符串乘法'-'*
+    - 跨行字符续在一行显示 \
+    - tab \t 、换行 \n
 
 - ex25.py
     - split str.split([sep[, maxsplit]])
@@ -218,7 +221,7 @@
     - 真值表 Not,or,and,not or,not and 学会判断。
     - 数字0，None类型，空字符串，空列表，空字典，空元组也被认为是False。
 
-- ex28.py
+- ex28.md
 
 - ex29.py
     - 注意缩进，防止if悬挂。
@@ -234,15 +237,22 @@
     - range、list用法见ex32_1，冒泡算法的实现！***
 
 - ex33.py
-
+    - list.append()用法
 
 - ex34.py
+    - list[index] index从0到len(list)-1
 
 - ex35.py
+    - if...elif...else判断
+    - raw_input()获取输入信息
+    - 线程模块方法
+    - run(): 用以表示线程活动的方法。
+    - start():启动线程活动。
 
 - ex36.py
 
 - ex37.py
+    - 认识关键字
 
 - ex38.py
     -列表操作
@@ -314,7 +324,9 @@
             Python还有一种代码结构实现类似的目的，就是类，通过类可以把一组函数和数据放到一个容器中，从而用‘.’操作符访问。
 
 - ex41.py
-    -
+    - self 是 Python 创建的额外的一个参数，确保函数能够正常工作。
+    - __init__ 函数，为class设置内部变量的方式，用self.设置到self上面。
+    - [:]复制整个列表。
 
 - ex42.py
     - 类、对象、实例
@@ -323,6 +335,7 @@
 - ex43.py
 
 - ex44.py
+    - 继承、合成、覆写
 
 - ex45.py
 
